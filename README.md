@@ -1,41 +1,39 @@
 # LocalShare
 
-LocalShare est une application web de partage de fichiers conçue pour les réseaux locaux, offrant une interface simple pour échanger des fichiers entre utilisateurs. LocalShare permet aux utilisateurs de télécharger, de stocker et de partager des fichiers sur un serveur centralisé. Les administrateurs disposent de permissions avancées pour partager des répertoires et des fichiers spécifiques du système de fichiers, ce qui facilite la gestion des ressources sur le réseau.
+LocalShare is a web-based file-sharing application designed for local networks, providing a simple interface to exchange files between users. LocalShare allows users to upload, store, and share files on a centralized server. Administrators have advanced permissions to share specific directories and files from the server's file system, streamlining resource management across the network.
 
-## Fonctionnalités
+## Features
 
-- **Création et gestion des utilisateurs**
-- **Partage de fichiers** : Téléchargez et partagez des fichiers avec d’autres utilisateurs connectés au réseau local.
-- **Supprimer un fichier partage**
-- **Stockage centralisé** : Les fichiers sont stockés directement sur le serveur, permettant un accès rapide et une gestion centralisée des ressources.
-- **Permissions administratives avancées** : Les administrateurs peuvent partager des dossiers et des fichiers spécifiques du système de fichiers du serveur, contrôlant ainsi l'accès aux ressources du réseau.
+- **User creation and management**
+- **File sharing**: Upload and share files with other users connected to the local network.
+- **Delete shared files**
+- **Centralized storage**: Files are stored directly on the server, enabling quick access and centralized resource management.
+- **Advanced administrative permissions**: Administrators can share specific folders and files from the server's file system, controlling access to network resources.
 
-## Captures d'écran
+## Screenshots
 
-Pour une meilleure compréhension de LocalShare, voici des aperçus de l'interface utilisateur :
-
-- **Écran de connexion**  
+- **Login Screen**  
   ![LOGIN](assets/images/login.png)
 
-- **Page de création d'utilisateur**  
+- **User Registration Page**  
   ![REGISTRATION](assets/images/register.png)
 
-- **Ajout, partage et suppression de fichier**
+- **Add, share, and delete files**
   ![USER FILES](assets/images/user_files.png)
 
-- **Affichage des fichiers partages par d'autres utilisateurs**
+- **Files shared by other users**
   ![SHARED FILES](assets/images/shared_files_admin.png)
 
-- **Fichiers sur le system du fichier du serveur**
+- **Files on the server file system**
   ![SERVER FILES ADMIN](assets/images/server_file_admin.png)
   ![SERVER FILES USER](assets/images/server_file_user.png)
 
-## Technologies utilisées
+## Technologies Used
 
-- **Front-end** : TailwindCSS, Alpine.js
-- **Back-end** : Python, Django
-- **Base de données** : Sqlite3
+- **Front-end**: TailwindCSS, Alpine.js
+- **Back-end**: Python, Django
+- **Database**: SQLite3
 
-## Contributeurs
+## Contributors
 
-Les contributions et suggestions d'amélioration sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request pour proposer vos idées.
+Contributions and suggestions for improvement are welcome! Feel free to open an issue or submit a pull request to propose your ideas.
